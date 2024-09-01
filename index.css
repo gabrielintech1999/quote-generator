@@ -1,1 +1,39 @@
-bod
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(assets/road-210913_1920-e1617756355766.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  line-height: 1.5;
+}
+
+main {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 450px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.author {
+  text-align: right;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}

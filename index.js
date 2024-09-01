@@ -12,5 +12,5 @@ btn.addEventListener("click", () => {
   const quote = quotes[Math.floor(Math.random() * quotes.length)];
 
   quoteDisplay.textContent = quote.text;
-  authordisplay.textContent = quote.author;
+  authordisplay.textContent = " - " + quote.author;
 });
